@@ -42,7 +42,7 @@ format ends with two nulls
       return hexstring.toLowerCase().replace(/\s/g, "");
     };
 
-    NvramParser.header = "54 43 46 31 0C 00 00 00";
+    NvramParser.header = "54 43 46 31 10 00 00 00";
 
     NvramParser.footer = "00 00";
 
