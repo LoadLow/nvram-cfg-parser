@@ -26,7 +26,7 @@ class NvramParser
   @formatHexString: (hexstring) -> hexstring.toLowerCase().replace /\s/g, ""
 
   # define format
-  @header: "54 43 46 31 0C 00 00 00"
+  @header: "54 43 46 31 10 00 00 00"
   @footer: "00 00"
   @headerbuf: buffertools.fromHex new Buffer @formatHexString @header
   @footerbuf: buffertools.fromHex new Buffer @formatHexString @footer
